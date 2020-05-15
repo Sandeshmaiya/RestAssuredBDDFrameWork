@@ -1,0 +1,266 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Verify if place been added",
+        "description": "",
+        "id": "validiating-place-apis;verify-if-place-been-added;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1354950900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Add place payload with \"sandesh\" and  \"English\" and \"maruthiexten banalore\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sandesh",
+                  "offset": 24
+                },
+                {
+                  "val": "English",
+                  "offset": 39
+                },
+                {
+                  "val": "maruthiexten banalore",
+                  "offset": 53
+                }
+              ],
+              "location": "AppPlacePostApi.add_place_payload_with_and_and(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3041511401,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user calls \"AddPlaceAPI\" api with Post http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AddPlaceAPI",
+                  "offset": 12
+                }
+              ],
+              "location": "AppPlacePostApi.user_calls_api_with_Post_http_request(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42535600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "api call is success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "AppPlacePostApi.api_call_is_success_with_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1194327601,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"status\" value is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 1
+                },
+                {
+                  "val": "OK",
+                  "offset": 19
+                }
+              ],
+              "location": "AppPlacePostApi.value_is(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20379199,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "\"scope\" value is \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "scope",
+                  "offset": 1
+                },
+                {
+                  "val": "APP",
+                  "offset": 18
+                }
+              ],
+              "location": "AppPlacePostApi.value_is(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AddPlace"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Verify if place been added",
+        "description": "",
+        "id": "validiating-place-apis;verify-if-place-been-added;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6217200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Add place payload with \"sandesh123\" and  \"Tamil\" and \"maruthiexten3 banalore\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sandesh123",
+                  "offset": 24
+                },
+                {
+                  "val": "Tamil",
+                  "offset": 42
+                },
+                {
+                  "val": "maruthiexten3 banalore",
+                  "offset": 54
+                }
+              ],
+              "location": "AppPlacePostApi.add_place_payload_with_and_and(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 291297900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user calls \"AddPlaceAPI\" api with Post http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AddPlaceAPI",
+                  "offset": 12
+                }
+              ],
+              "location": "AppPlacePostApi.user_calls_api_with_Post_http_request(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1066000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "api call is success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "AppPlacePostApi.api_call_is_success_with_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10816900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"status\" value is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 1
+                },
+                {
+                  "val": "OK",
+                  "offset": 19
+                }
+              ],
+              "location": "AppPlacePostApi.value_is(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12829100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "\"scope\" value is \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "scope",
+                  "offset": 1
+                },
+                {
+                  "val": "APP",
+                  "offset": 18
+                }
+              ],
+              "location": "AppPlacePostApi.value_is(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AddPlace"
+          }
+        ]
+      }
+    ],
+    "name": "Validiating place apis",
+    "description": "",
+    "id": "validiating-place-apis",
+    "keyword": "Feature",
+    "uri": "C:/Users/s.maiya/eclipse-workspace/17_07_2019_Selinium/ApiFrameWork-BDD/src/main/java/com/qa/features/Addplace.feature"
+  }
+]
